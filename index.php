@@ -20,6 +20,6 @@ if($abbrev && $chapter){
     
     $json = json_decode(file_get_contents($url));
     foreach($json->verses as $verse){
-        echo "<p>{$verse->number}: {$verse->text}</p>";
+        echo "<p><sup>{$verse->number}</sup> {$verse->text}</p>";
     }
 }
