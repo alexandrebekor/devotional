@@ -2,12 +2,7 @@
 
 require __DIR__ . "/vendor/autoload.php";
 
-//$parse = new Parsedown();
-
-//$text = file_get_contents(__DIR__ . "/posts/2020-11-22-tenha-juizo.md");
-
-//echo $parse->text($text);
-
+/*
 $version = "nvi";
 
 $abbrev = filter_input(INPUT_GET, "abbrev");
@@ -26,3 +21,13 @@ if($abbrev && $chapter){
 }
 
 require_once __DIR__ . "/views/formDevotional.php";
+
+*/
+
+require_once __DIR__ . "/views/formCreateFile.php";
+
+//$parse = new Parsedown();
+
+//$text = file_get_contents(__DIR__ . "/posts/{$fiel}");
+
+//echo $parse->text($text);
